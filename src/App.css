@@ -1,0 +1,74 @@
+/* Background image for the body */
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif; /* Change the font if needed */
+}
+
+/* Styles for the form */
+.create {
+  max-width: 300px;
+  margin: 0px auto; /* Center the form vertically */
+  padding: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #e9c7c7, #e0e0e0);
+  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+@media screen and (min-width: 600px) {
+  .create
+  {
+    max-width: 350px;
+    margin: 50px auto;
+  }
+}
+
+.create p,span
+{
+  color: #430E78;
+}
+.create h2 {
+  font-size: 28px;
+  color: #5E169C; /* Dark text color */
+  margin-bottom: 30px;
+}
+
+.create label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #430E78; /* Label text color */
+}
+
+
+.create input,
+.create select {
+  color: #430E78;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.create button {
+  background: #5E169C;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  padding: 14px 24px;
+  border-radius: 8px;
+  transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+.create button:hover {
+  background: #36382b;
+  color: white;
+}
+
+.agree-box .input-2 {
+  width: 5%;
+  margin-right: 10px;
+}
